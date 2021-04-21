@@ -1,0 +1,123 @@
+body {
+    padding: 25px 50px 75px;
+    margin: 20px 10px 15px;
+    background: #edc0bf;
+    background: linear-gradient(90deg, #e8a87c 0, #41b3a3 58%);
+    font-family: 'DM Sans', sans-serif;
+  }
+html {
+  scroll-behavior: smooth;
+  }
+@media(min-width: 992px){
+.card1{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    z-index: 2;
+    width: 500px;
+    height: 400px;
+    padding: 2rem;
+    border-radius: 15px 15px 15px 15px;
+    background: rgba(255, 255, 255, 0.3);
+    background-image: url(https://avohdw.bn.files.1drv.com/y4p3Ftb10p79Ru_vwLAKKZWADrscU3mkjW6b3Vgl0Fc3eVy_2EwSkc1BeTdzHMoTBqWyG6vBo6qV8FTsoluSOtlm9VMiseZjKR_wb1kyyqnmjY2g2WkfyDMl8KtZ-TCOatJ8LYY8ZAqPZ7yda3mNCR5vUmlsWIrvANOjRT0bm4qgN97nAKpvmvBpRg0wCzcJcppcxekRV8GjTH86JOxAuYJyTqJzyrOXvf6CA6EdkzMFJ8/AirBrush_20210322132329.jpg?psid=1);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.card2 {
+    right: 20px;
+    left: 10px;
+    height:15cm;
+    padding: 2rem;
+    border-radius: 15px 15px 15px 15px;
+    background: rgba(255, 255, 255, 0.3);
+  	-webkit-backdrop-filter: blur(10px);
+  	backdrop-filter: blur(10px);
+    text-align: right;
+  }
+  
+  .card2-title {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    margin-left: 35rem;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .card3 {
+    margin-top: 30px;
+    height: 10cm;
+    padding: 2rem;
+    border-radius: 15px 15px 15px 15px;
+    background: rgba(255, 255, 255, 0.3);
+  	-webkit-backdrop-filter: blur(10px);
+  	backdrop-filter: blur(10px);
+  }
+  .card4 {
+    margin-top: 30px;
+    height: 10cm;
+    padding: 2rem;
+    border-radius: 15px 15px 15px 15px;
+    background: rgba(255, 255, 255, 0.3);
+  	-webkit-backdrop-filter: blur(10px);
+  	backdrop-filter: blur(10px);
+  }
+  .card5 {
+    margin-top: 30px;
+    height: 10cm;
+    padding: 2rem;
+    border-radius: 15px 15px 15px 15px;
+    background: rgba(255, 255, 255, 0.3);
+  	-webkit-backdrop-filter: blur(10px);
+  	backdrop-filter: blur(10px);
+  }
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+  p {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    margin-left: 37rem;
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .nav-links {
+    display: flex;
+    margin-left: 35rem;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .nav-links li{
+    list-style: none;
+  }
+  
+  .nav-links a{
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    opacity: 0.6;
+  }
+
+  nav a:hover{
+    color: black;
+    opacity: 1;
+  }
+}
