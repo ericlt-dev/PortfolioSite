@@ -1,14 +1,68 @@
+@import url(mobileportfolio.css);
+@media (max-width: 1024px){
 body {
     padding: 25px 50px 75px;
     margin: 20px 10px 15px;
-    background: #edc0bf;
-    background: linear-gradient(90deg, #e8a87c 0, #41b3a3 58%);
-    font-family: 'DM Sans', sans-serif;
+    background: #bdc3c7; 
+    background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50); 
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    color: rgba(255, 255, 255, 0.753);
+    font-family: 'Raleway', sans-serif;
   }
 html {
   scroll-behavior: smooth;
   }
-@media(min-width: 992px){
+.nav-links li{
+    list-style: none;
+  }
+.nav-links a{
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  text-decoration: none;
+  opacity: 0.6;
+  justify-content: space-around;
+  font-weight: bold;
+  }
+  ul{
+    padding: 0;
+  }
+nav{
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+}
+.nav-links ul{
+  padding-inline-start: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card2{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+} 
+.card2-title{
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+h2 {
+ font-size: 20px;
+ font-weight: bolder;
+}
+}
+/* mobile settings */
+@media(min-width: 1025px){
+body {
+    padding: 25px 50px 75px;
+    margin: 20px 10px 15px;
+    background: #edc0bf;
+    background: linear-gradient(90deg, #e8a87c 0, #00662a 58%);
+    font-family: 'DM Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.568);
+  }
 .card1{
     position: absolute;
     left: 100px;
@@ -19,7 +73,7 @@ html {
     padding: 2rem;
     border-radius: 15px 15px 15px 15px;
     background: rgba(255, 255, 255, 0.3);
-    background-image: url(https://avohdw.bn.files.1drv.com/y4p3Ftb10p79Ru_vwLAKKZWADrscU3mkjW6b3Vgl0Fc3eVy_2EwSkc1BeTdzHMoTBqWyG6vBo6qV8FTsoluSOtlm9VMiseZjKR_wb1kyyqnmjY2g2WkfyDMl8KtZ-TCOatJ8LYY8ZAqPZ7yda3mNCR5vUmlsWIrvANOjRT0bm4qgN97nAKpvmvBpRg0wCzcJcppcxekRV8GjTH86JOxAuYJyTqJzyrOXvf6CA6EdkzMFJ8/AirBrush_20210322132329.jpg?psid=1);
+    background-image: url(https://bn1301files.storage.live.com/y4pN5WSEY7UxaRdZGIY2mpMe7C_-vyI1NkY--1UB_UmEE08Axf--eMdMHTMHV5e4VaFJzzau_NG1pb7jxlm8HxYrvOCx4Ug6VU4XawVrSg7hDQjEmgVHqiUQf5mjAvdzuXCsPQc29R0_V73UzjtENOK2jIbOEWHiFmJS8Krx5Q1iOFc-sq3PmUVow8W9U_kfag_zmIsZUqjQmbNr_5-8JY2wjR4IUc0kxkCoQGJAtP0JVs/AirBrush_20210322132329.jpg?psid=1&width=1268&height=1690);
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
@@ -52,7 +106,10 @@ html {
     background: rgba(255, 255, 255, 0.3);
   	-webkit-backdrop-filter: blur(10px);
   	backdrop-filter: blur(10px);
+    text-align: center;
+    border-image: 15px 15px 15px 15px;
   }
+
   .card4 {
     margin-top: 30px;
     height: 10cm;
@@ -61,6 +118,7 @@ html {
     background: rgba(255, 255, 255, 0.3);
   	-webkit-backdrop-filter: blur(10px);
   	backdrop-filter: blur(10px);
+    text-align: center;
   }
   .card5 {
     margin-top: 30px;
@@ -70,20 +128,21 @@ html {
     background: rgba(255, 255, 255, 0.3);
   	-webkit-backdrop-filter: blur(10px);
   	backdrop-filter: blur(10px);
+    text-align: center;
   }
 
 .reveal{
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(0px);
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 1.5s ease;
 }
 .reveal.active{
   transform: translateY(0px);
   opacity: 1;
 }
 
-  p {
+ .pclass2 {
     font-size: 2rem;
     margin-bottom: .5rem;
     margin-left: 37rem;
@@ -96,28 +155,31 @@ html {
     margin-right: 50px;
   }
 
-  .nav-links {
+  .nav-links ul{
     display: flex;
     margin-left: 35rem;
     justify-content: space-around;
     width: 50%;
   }
-
-  .nav-links li{
-    list-style: none;
-  }
-  
   .nav-links a{
-    color: black;
+    color: rgba(255, 255, 255, 0.87);
     letter-spacing: 3px;
     font-weight: bold;
     text-decoration: none;
     font-size: 25px;
     opacity: 0.6;
   }
-
   nav a:hover{
-    color: black;
+    color: rgba(255, 255, 255, 0.788);
     opacity: 1;
+  }
+  .nav-links li{
+    list-style: none;
+  }
+  .contactinfo{
+    text-align: center;
+    display: flex !important;
+    flex-direction: column;
+    list-style: none;
   }
 }
