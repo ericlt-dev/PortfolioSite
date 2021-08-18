@@ -1,4 +1,4 @@
-@import url(mobileportfolio.css);
+
 @media (max-width: 1024px){
 body {
     padding: 25px 50px 75px;
@@ -53,8 +53,8 @@ h2 {
  font-weight: bolder;
 }
 }
-/* mobile settings */
-@media(min-width: 1025px){
+/* desktop settings */
+@media(min-width: 1440px){
 body {
     padding: 25px 50px 75px;
     margin: 20px 10px 15px;
