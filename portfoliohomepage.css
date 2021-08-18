@@ -1,5 +1,5 @@
 
-@media (max-width: 1439px){
+@media (max-width: 1300px){
 body {
     padding: 25px 50px 75px;
     margin: 20px 10px 15px;
@@ -54,7 +54,7 @@ h2 {
 }
 }
 /* desktop settings */
-@media(min-width: 1440px){
+@media(min-width: 1301px){
 body {
     padding: 25px 50px 75px;
     margin: 20px 10px 15px;
